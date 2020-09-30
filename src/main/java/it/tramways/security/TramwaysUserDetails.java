@@ -1,4 +1,4 @@
-package it.tramways.core.model;
+package it.tramways.security;
 
 import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;
@@ -6,7 +6,7 @@ import org.springframework.security.core.userdetails.User;
 
 public class TramwaysUserDetails extends User {
 
-    private String uuid;
+    private final String uuid;
 
     public TramwaysUserDetails(String uuid, String username, String password,
         Collection<? extends GrantedAuthority> authorities) {

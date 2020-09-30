@@ -1,4 +1,4 @@
-package it.tramways.core.model;
+package it.tramways.security;
 
 public class UserRoles {
     public static final String ADMIN = "ADMIN";
