@@ -1,4 +1,4 @@
-package it.tramways;
+package it.tramways.web;
 
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package it.tramways.security;
+package it.tramways.web.security;
 
 import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;

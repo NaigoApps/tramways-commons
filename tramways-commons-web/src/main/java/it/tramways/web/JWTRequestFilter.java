@@ -1,5 +1,7 @@
-package it.tramways.security;
+package it.tramways.web.security;
 
+import it.tramways.web.TokenManager;
+import it.tramways.web.TramwaysUserDetails;
 import java.io.IOException;
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

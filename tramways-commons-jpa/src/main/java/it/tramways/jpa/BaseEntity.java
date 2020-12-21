@@ -1,11 +1,11 @@
-package it.tramways.core.model.persistable;
+package it.tramways.jpa;
 
+import it.tramways.core.Identifiable;
 import java.util.UUID;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
-import it.tramways.core.model.Identifiable;
 
 @MappedSuperclass
 public abstract class BaseEntity implements Identifiable {
