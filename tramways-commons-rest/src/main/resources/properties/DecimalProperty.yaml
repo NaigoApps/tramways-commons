@@ -1,0 +1,7 @@
+DecimalProperty:
+  allOf:
+    - $ref: './Property.yaml'
+    - type: object
+      properties:
+        value:
+          type: number

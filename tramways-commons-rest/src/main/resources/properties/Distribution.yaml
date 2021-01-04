@@ -1,0 +1,11 @@
+Distribution:
+  type: object
+  discriminator:
+    propertyName: distributionType
+    mapping:
+      UNIFORM: './UniformDistribution.yaml'
+      EXPONENTIAL: './ExponentialDistribution.yaml'
+  properties:
+    distributionType:
+      $ref: './DistributionType.yaml'
+  required: [distributionType]

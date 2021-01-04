@@ -1,0 +1,11 @@
+ChoiceProperty:
+  allOf:
+    - $ref: './Property.yaml'
+    - type: object
+      properties:
+        choices:
+          type: array
+          items:
+            $ref: './ChoiceElement.yaml'
+        value:
+          type: string

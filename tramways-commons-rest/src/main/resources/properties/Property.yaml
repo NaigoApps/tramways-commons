@@ -1,0 +1,13 @@
+type: object
+discriminator:
+  propertyName: propertyType
+properties:
+  name:
+    type: string
+  description:
+    type: string
+  propertyType:
+    type: string
+  valid:
+    type: boolean
+required: [propertyType]
