@@ -21,6 +21,24 @@
       <artifactId>spring-data-jpa</artifactId>
       <groupId>org.springframework.data</groupId>
     </dependency>
+
+    <dependency>
+      <artifactId>javax.persistence-api</artifactId>
+      <groupId>javax.persistence</groupId>
+      <version>2.2</version>
+    </dependency>
+
+    <dependency>
+      <artifactId>hibernate-jpamodelgen</artifactId>
+      <groupId>org.hibernate</groupId>
+      <version>5.4.15.Final</version>
+    </dependency>
+    <dependency>
+      <artifactId>mysql-connector-java</artifactId>
+      <groupId>mysql</groupId>
+      <version>8.0.21</version>
+    </dependency>
+
   </dependencies>
 
 </project>
