@@ -1,0 +1,7 @@
+type: object
+discriminator:
+  propertyName: distributionType
+properties:
+  distributionType:
+    type: "string"
+required: [distributionType]

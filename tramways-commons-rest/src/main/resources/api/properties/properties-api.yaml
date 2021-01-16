@@ -1,0 +1,31 @@
+openapi: 3.0.3
+info:
+  title: Tramways Analysis API
+  description: Tramways Analysis API
+  version: 1.0.0
+paths:
+  {}
+components:
+  schemas:
+    StringProperty:
+      $ref: "./StringProperty.yaml"
+    IntegerProperty:
+      $ref: "./IntegerProperty.yaml"
+    DecimalProperty:
+      $ref: "./StringProperty.yaml"
+    ChoiceProperty:
+      $ref: "./ChoiceProperty.yaml"
+    ChoiceElement:
+      $ref: "./ChoiceElement.yaml"
+    DistributionProperty:
+      $ref: "./DistributionProperty.yaml"
+    Property:
+      $ref: "./Property.yaml"
+    Distribution:
+      $ref: "./Distribution.yaml"
+    UniformDistribution:
+      $ref: "./UniformDistribution.yaml"
+    ExponentialDistribution:
+      $ref: "./ExponentialDistribution.yaml"
+
+#npx swagger-cli bundle -o properties-api-bundled.yaml ./properties-api.yaml

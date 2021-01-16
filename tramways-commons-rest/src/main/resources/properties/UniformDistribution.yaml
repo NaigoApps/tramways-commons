@@ -1,9 +1,0 @@
-UniformDistribution:
-  allOf:
-    - $ref: './Distribution.yaml'
-    - type: object
-      properties:
-        left:
-          type: number
-        right:
-          type: number

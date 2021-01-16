@@ -1,3 +1,0 @@
-DistributionType:
-  type: string
-  enum: [UNIFORM, EXPONENTIAL]

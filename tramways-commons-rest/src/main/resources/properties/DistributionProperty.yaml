@@ -1,7 +1,0 @@
-DistributionProperty:
-  allOf:
-    - $ref: './Property.yaml'
-    - type: object
-      properties:
-        value:
-          $ref: './Distribution.yaml'

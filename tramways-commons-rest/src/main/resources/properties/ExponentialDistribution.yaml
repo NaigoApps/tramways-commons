@@ -1,7 +1,0 @@
-ExponentialDistribution:
-  allOf:
-    - $ref: './Distribution.yaml'
-    - type: object
-      properties:
-        lambda:
-          type: number
