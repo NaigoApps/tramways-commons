@@ -75,18 +75,6 @@
               <goal>generate</goal>
             </goals>
           </execution>
-          <execution>
-            <id>generate-responses-api</id>
-            <configuration>
-              <generatorName>spring</generatorName>
-              <modelPackage>it.tramways.commons.web.model.responses</modelPackage>
-              <inputSpec>${project.basedir}/src/main/resources/api/responses/responses-api-bundled.yaml</inputSpec>
-              <output>${project.basedir}</output>
-            </configuration>
-            <goals>
-              <goal>generate</goal>
-            </goals>
-          </execution>
         </executions>
         <groupId>org.openapitools</groupId>
         <version>5.0.0</version>
