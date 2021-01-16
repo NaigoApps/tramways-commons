@@ -57,7 +57,7 @@
               <generatorName>spring</generatorName>
               <modelPackage>it.tramways.commons.web.model.wrappers</modelPackage>
               <inputSpec>${project.basedir}/src/main/resources/api/wrappers/wrappers-api-bundled.yaml</inputSpec>
-              <output>${project.basedir}</output>
+<!--              <output>${project.basedir}</output>-->
             </configuration>
             <goals>
               <goal>generate</goal>
@@ -69,7 +69,7 @@
               <generatorName>spring</generatorName>
               <modelPackage>it.tramways.commons.web.model.properties</modelPackage>
               <inputSpec>${project.basedir}/src/main/resources/api/properties/properties-api-bundled.yaml</inputSpec>
-              <output>${project.basedir}</output>
+<!--              <output>${project.basedir}</output>-->
             </configuration>
             <goals>
               <goal>generate</goal>
