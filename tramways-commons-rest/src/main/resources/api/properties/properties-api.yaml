@@ -27,5 +27,3 @@ components:
       $ref: "./UniformDistribution.yaml"
     ExponentialDistribution:
       $ref: "./ExponentialDistribution.yaml"
-
-#npx swagger-cli bundle -o properties-api-bundled.yaml ./properties-api.yaml
