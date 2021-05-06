@@ -17,7 +17,7 @@ import javax.validation.constraints.*;
 /**
  * ChoiceProperty
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-04-06T22:11:40.260454+02:00[Europe/Rome]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-04-08T22:59:25.148602400+02:00[Europe/Berlin]")
 public class ChoiceProperty extends Property  {
   @JsonProperty("choices")
   @Valid
