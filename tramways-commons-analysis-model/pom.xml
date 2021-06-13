@@ -19,7 +19,7 @@
               <generateApis>false</generateApis>
               <generateModels>true</generateModels>
               <generatorName>spring</generatorName>
-              <inputSpec>${project.basedir}/src/main/resources/api/analysis-commons-model.yaml
+              <inputSpec>${project.basedir}/src/main/resources/api/v1/analysis-commons-model.yaml
               </inputSpec>
               <modelPackage>it.tramways.commons.analysis.model</modelPackage>
               <supportingFilesToGenerate>pom.xml</supportingFilesToGenerate>
