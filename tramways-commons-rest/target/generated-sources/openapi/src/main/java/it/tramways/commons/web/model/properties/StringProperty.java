@@ -14,7 +14,7 @@ import javax.validation.constraints.*;
 /**
  * StringProperty
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-04-08T22:59:25.148602400+02:00[Europe/Berlin]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-06-24T12:07:26.797550300+02:00[Europe/Berlin]")
 public class StringProperty extends Property  {
   @JsonProperty("value")
   private String value;

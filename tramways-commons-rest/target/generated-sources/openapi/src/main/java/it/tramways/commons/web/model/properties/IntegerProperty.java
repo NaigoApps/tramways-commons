@@ -14,7 +14,7 @@ import javax.validation.constraints.*;
 /**
  * IntegerProperty
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-04-08T22:59:25.148602400+02:00[Europe/Berlin]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-06-24T12:07:26.797550300+02:00[Europe/Berlin]")
 public class IntegerProperty extends Property  {
   @JsonProperty("value")
   private Integer value;
