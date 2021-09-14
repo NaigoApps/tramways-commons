@@ -10,8 +10,6 @@
     <module>tramways-commons-core</module>
     <module>tramways-commons-jpa</module>
     <module>tramways-commons-rest</module>
-    <module>tramways-commons-analysis-model</module>
-    <module>tramways-commons-properties-model</module>
   </modules>
 
   <packaging>pom</packaging>
