@@ -19,30 +19,6 @@
       <version>3.8.2</version>
     </dependency>
 
-    <dependency>
-      <artifactId>validation-api</artifactId>
-      <groupId>javax.validation</groupId>
-    </dependency>
-    <dependency>
-      <groupId>io.swagger</groupId>
-      <artifactId>swagger-annotations</artifactId>
-      <version>1.5.20</version>
-      <scope>compile</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>io.springfox</groupId>
-      <artifactId>springfox-swagger2</artifactId>
-      <version>3.0.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.openapitools</groupId>
-      <artifactId>jackson-databind-nullable</artifactId>
-      <version>0.1.0</version>
-      <scope>compile</scope>
-    </dependency>
-
   </dependencies>
 
   <modelVersion>4.0.0</modelVersion>
@@ -52,51 +28,5 @@
     <groupId>it.tramways</groupId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>openapi-generator-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>generate-wrappers-api</id>
-            <configuration>
-              <generatorName>spring</generatorName>
-              <modelPackage>it.tramways.commons.web.model.wrappers</modelPackage>
-              <inputSpec>${project.basedir}/src/main/resources/api/wrappers/wrappers-api-bundled.yaml</inputSpec>
-<!--              <output>${project.basedir}</output>-->
-            </configuration>
-            <goals>
-              <goal>generate</goal>
-            </goals>
-          </execution>
-          <execution>
-            <id>generate-properties-api</id>
-            <configuration>
-              <generatorName>spring</generatorName>
-              <modelPackage>it.tramways.commons.web.model.properties</modelPackage>
-              <inputSpec>${project.basedir}/src/main/resources/api/properties/properties-api-bundled.yaml</inputSpec>
-<!--              <output>${project.basedir}</output>-->
-            </configuration>
-            <goals>
-              <goal>generate</goal>
-            </goals>
-          </execution>
-        </executions>
-        <groupId>org.openapitools</groupId>
-        <version>5.0.0</version>
-      </plugin>
-    </plugins>
-  </build>
-
-  <properties>
-    <openapi.generator.maven.plugin.generateModelDocumentation>false</openapi.generator.maven.plugin.generateModelDocumentation>
-    <openapi.generator.maven.plugin.generateModelTests>false</openapi.generator.maven.plugin.generateModelTests>
-    <openapi.generator.maven.plugin.generateSupportingFiles>false</openapi.generator.maven.plugin.generateSupportingFiles>
-    <openapi.generator.maven.plugin.generateApis>false</openapi.generator.maven.plugin.generateApis>
-    <openapi.generator.maven.plugin.generateApiTests>false</openapi.generator.maven.plugin.generateApiTests>
-    <openapi.generator.maven.plugin.generateApiDocumentation>false</openapi.generator.maven.plugin.generateApiDocumentation>
-    <codegen.skipIfSpecIsUnchanged>true</codegen.skipIfSpecIsUnchanged>
-  </properties>
 
 </project>
